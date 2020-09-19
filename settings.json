@@ -1,0 +1,388 @@
+{
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "breadcrumbs.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "'JetBrains Mono','Ubuntu Mono','Source Code Variable','Sarasa Mono CL'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.hover.delay": 150,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        80,
+    ],
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "emmet.includeLanguages": {
+        "mdx": "javascriptreact",
+        "vue-html": "html",
+        "wxml": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.idea": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.idea": true
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.showPushSuccessNotification": true,
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.useGlobalIgnoreFiles": true,
+    "sync.autoDownload": false,
+    "sync.forceDownload": false,
+    "sync.gist": "24f5ae70853900b3a8381c0e5d7c3106",
+    "sync.quietSync": true,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "'Fira Code'",
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.rendererType": "dom",
+    "vim.debug.silent": true,
+    "vim.sneak": false,
+    "vim.easymotion": true,
+    "vim.whichwrap": "h, l",
+    "vim.enableNeovim": true,
+
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-d>": false,
+        "<C-f>": false,
+        "<C-r>": true,
+        "<C-v>": false,
+        "<C-w>": true
+    },
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "f",
+                "s",
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "g"
+            ],
+            "commands": [
+                "workbench.view.scm"
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "x"
+            ],
+            "commands": [
+                "workbench.view.extensions"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "i"
+            ],
+            "commands": [
+                "workbench.action.quickOpenView"
+            ]
+        },
+        {
+            "after": [
+                ":"
+            ],
+            "before": [
+                ";"
+            ]
+        },
+        {
+            "after": [
+                ";"
+            ],
+            "before": [
+                ":"
+            ]
+        },
+        {
+            "after": [
+                "*"
+            ],
+            "before": [
+                "?"
+            ]
+        },
+        {
+            "after": [
+                "?"
+            ],
+            "before": [
+                "*"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "vim.useCtrlKeys": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "z",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "i"
+            ],
+            "commands": [
+                "workbench.action.quickOpenView"
+            ]
+        },
+        {
+            "after": [
+                ":"
+            ],
+            "before": [
+                ";"
+            ]
+        },
+        {
+            "after": [
+                ";"
+            ],
+            "before": [
+                ":"
+            ]
+        },
+        {
+            "after": [
+                "*"
+            ],
+            "before": [
+                "?"
+            ]
+        },
+        {
+            "after": [
+                "?"
+            ],
+            "before": [
+                "*"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "V"
+            ]
+        }
+    ],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "vim.foldfix": true,
+    "javascript.suggest.autoImports": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 1,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "zenMode.centerLayout": false,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.ftl": "ftl",
+        "*.conf": "nginx",
+        ".stylelintrc": "jsonc"
+    },
+    "gitlens.advanced.similarityThreshold": 1000,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "leetcode.defaultLanguage": "javascript",
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.workspaceFolder": "/Users/charlzyx/.leetcode",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "vetur.format.defaultFormatter.css": "none",
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "vetur.format.enable": false,
+    "explorer.compactFolders": false,
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 4,
+    "workbench.activityBar.visible": true,
+    "editor.renderControlCharacters": false,
+    "editor.minimap.enabled": true,
+    "python.jediEnabled": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "vetur.completion.autoImport": false,
+    "sort-imports.on-save": false,
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotionMarkerFontSize": "14",
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "statusBar.foreground": "#000"
+        },
+        "statusBar.background": "#4D78CC",
+        "statusBar.noFolderBackground": "#4D78CC",
+        "statusBar.debuggingBackground": "#4D78CC"
+    },
+    "lua.targetVersion": "5.3",
+    "vim.easymotionMarkerHeight": 20,
+    "vim.statusBarColors.normal": "#4D78CC",
+    "vim.statusBarColors.replace": "#C4E801",
+    "vim.statusBarColors.insert": "#05C402",
+    "vim.statusBarColors.visual": "#0C7752",
+    "vim.statusBarColors.visualblock": "#0C7752",
+    "vim.statusBarColors.visualline": "#0C7752",
+    "vim.statusBarColors.commandlineinprogress": "#FF22B6",
+    "vim.statusBarColors.easymotioninputmode": "#22C2FF",
+    "vim.statusBarColors.easymotionmode": "#22C2FF",
+    "vim.easymotionMarkerForegroundColorTwoChar": "#E6E6E6",
+    "vim.easymotionMarkerWidthPerChar": 9,
+    "vim.easymotionMarkerBackgroundColor": "#FF22B6",
+    "vim.easymotionMarkerFontWeight": "bold",
+    "vim.easymotionMarkerForegroundColorOneChar": "#E6E6E6",
+    "workbench.colorTheme": "One Dark Pro",
+    "vim.overrideCopy": false,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "stylint.alwaysShowStatus": true,
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "cssModules.camelCase": true,
+    "python.languageServer": "Microsoft",
+    "python.pythonPath": "/usr/bin/python"
+}

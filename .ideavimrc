@@ -1,0 +1,29 @@
+source ~/.vimrc
+
+" SAVE LIFE
+:set keep-english-in-normal
+
+" BETTER VIM
+nnoremap <leader>/ :action FindInPath<cr>
+vnoremap <leader>/ :action FindInPath<cr>
+
+" BETTER IDEA
+" JUMPS
+nnoremap gb :action Back<cr>
+vnoremap gb :action Back<cr>
+nnoremap gf :action Forward<cr>
+vnoremap gf :action Forward<cr>
+nnoremap gd :action GotoDeclaration<cr>
+vnoremap gd :action GotoDeclaration<cr>
+vnoremap zo :action GotoAction<cr>
+nnoremap zo :action GotoAction<cr>
+vnoremap zp :action SearchEverywhere<cr>
+nnoremap zp :action SearchEverywhere<cr>
+nnoremap zf :action GotoFile<cr>
+vnoremap zf :action GotoFile<cr>
+" Git
+nnoremap <leader>gb :action Git.Branches<cr>
+nnoremap <leader>gc :action Git.CompareWithBranch<cr>
+
+
+set ideajoin
