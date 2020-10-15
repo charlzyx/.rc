@@ -41,13 +41,14 @@ imap jk <esc>
 nnoremap <leader>vc :edit ~/.vimrc<CR>
 nnoremap <leader>vs :so ~/.vimrc<CR>
 nnoremap <leader>pp :PlugInstall<CR>
+nnoremap <leader>pcc :PlugClean<CR>
 nnoremap <leader>w <c-w>
 nnoremap <leader>wd :q<cr>
 nnoremap <leader>jj :jumps<cr>
 nnoremap <leader>mm :marks<cr>
 " whichkey
-nnoremap <leader>kk :WhichKey '<Space>'<CR>
-vnoremap <leader>kk :WhichKey '<Space>'<CR>
+" nnoremap <leader>kk :WhichKey '<Space>'<CR>
+" vnoremap <leader>kk :WhichKey '<Space>'<CR>
 " EasyMotion
 map ,, <Plug>(easymotion-prefix)
 map ,,s <Plug>(easymotion-s2)
@@ -85,7 +86,7 @@ let g:nerdtreeindicatormapcustom = {
         \ }
 " ------------------------------------------------------------
 " -- Layer EasyMotion ----------------------------------------
-" ------------------------------------------------------------
+" o-----------------------------------------------------------
 Plug 'easymotion/vim-easymotion'
 let g:EasyMotion_smartcase = 1
 
@@ -125,7 +126,7 @@ Plug 'junegunn/vim-easy-align'
 " -- Layer co cc----------------------------------------
 " ------------------------------------------------------------
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " ------------------------------------------------------------
 " -- Layer indentLine ----------------------------------------
@@ -136,6 +137,5 @@ Plug 'Yggdroot/indentLine'
 " -- Layer Language ----------------------------------------
 " ------------------------------------------------------------
 Plug 'chr4/nginx.vim'
-Plug 'leafgarland/typescript-vim'
 
 call plug#end()
