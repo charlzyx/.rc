@@ -1,11 +1,4 @@
-eval "$(starship init zsh)"
-eval $(thefuck --alias)
 export ZSH="/Users/chao/.oh-my-zsh"
-# node: nvm
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # hombrew
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.cloud.tencent.com/homebrew-bottles
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
@@ -18,31 +11,37 @@ export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 # sass
 export SASS_BINARY_SITE="https://npm.taobao.org/mirrors/node-sass"
 # hasaki
-export HASAKI_HOME="/Users/chao/hasaki"
+#export HASAKI_HOME="/Users/chao/hasaki"
+# go
+#export GO_HOME="/usr/local/go"
+#export MONGODB_HOME="/usr/local/share/mongodb"
+#export GOPATH="$HOME/go";
+#export GO111MODULE=on
 # ENV HOMES
-export DENO_HOME=$HOME/.deno;
-export ANDROID_HOME=$HOME/Library/Android/sdk;
-export FLUTTER_HOME=$HOME/Library/flutter;
-export MAVEN_HOME=$HOME/Library/maven;
-export GRADLE_HOME=$HOME/Library/Gradle/gradle-5.6.4;
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8);
-export MONGODB_HOME=$HOME/Library/mongodb-macos-x86_64-4.4.1;
-export CLASSPATH=.:$JAVA_HOME/libn/dt.jar:$JAVA_HOME/lib/tools.jar;
-export SPRING_HOME=$HOME/Library/spring-2.2.3.RELEASE;
-export YARN_HOME=$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles;
+# deno
+#export ANDROID_HOME=$HOME/Library/Android/sdk;
+#export FLUTTER_HOME=$HOME/Library/flutter;
+#export MAVEN_HOME=$HOME/Library/maven;
+#export GRADLE_HOME=$HOME/Library/Gradle/gradle-5.6.4;
+#export JAVA_HOME=$(/usr/libexec/java_home -v 1.8);
+#export CLASSPATH=.:$JAVA_HOME/libn/dt.jar:$JAVA_HOME/lib/tools.jar;
+#export SPRING_HOME=$HOME/Library/spring-2.2.3.RELEASE;
+#export YARN_HOME=$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin
+#export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles;
 # append homes to path
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$FLUTTER_HOME/bin:\
-$MONGODB_HOME/bin:\
-$PANDOC_HOME/bin:\
-${DENO_HOME}/bin:\
-${ANDROID_HOME}:${ANDROID_HOME}/tools:\
-${ANDROID_HOME}/platform-tools:\
-${GRADLE_HOME}/bin:\
-${JAVA_HOME}/bin:\
-${CLASSPATH}:${MAVEN_HOME}/bin:\
-${SPRING_HOME}/bin:$PATH";
+#export PATH="$FLUTTER_HOME/bin:\
+#/usr/local/opt/gnu-getopt/bin:\
+#$MONGODB_HOME/bin:\
+#$GOPATH/bin:\
+#$PANDOC_HOME/bin:\
+#${DENO_HOME}/bin:\
+#${ANDROID_HOME}:${ANDROID_HOME}/tools:\
+#${ANDROID_HOME}/platform-tools:\
+#${GRADLE_HOME}/bin:\
+#${JAVA_HOME}/bin:\
+#${CLASSPATH}:${MAVEN_HOME}/bin:\
+#${SPRING_HOME}/bin:$PATH";
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,7 +109,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z)
+plugins=(git z vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -139,24 +138,20 @@ export ARCHFLAGS="-arch x86_64"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # actions
-alias sozhs="source ~/.zshrc"
+alias sosh="source ~/.zshrc"
 # editors
 alias vi="code-insiders"
 alias vim="nvim"
-alias sb="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 # helpers
 alias live="browser-sync start --server"
 alias ip="ipconfig getifaddr en0"
 # Archer
-alias sso="pm2 start $HOME/archer/local.js --name archer"
-alias ssk="pm2 stop archer"
+# alias sso="pm2 start $HOME/archer/local.js --name archer"
+# alias ssk="pm2 stop archer"
 # proxy
 alias ssr="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=http://127.0.0.1:7890"
 alias nossr="export https_proxy= http_proxy= all_proxy="
-# android
-alias input="adb shell input text"
-alias adp="adb shell settings put global http_proxy `ip`:9091"
-alias unadp="adb shell settings put global http_proxy :0"
+
 
 HASAKI_HELP="我还在寻找回家的路。
     ——疾风剑豪·亚索。
