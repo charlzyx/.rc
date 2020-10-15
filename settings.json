@@ -65,7 +65,6 @@
     "terminal.integrated.rendererType": "dom",
     "vim.debug.silent": true,
     "vim.sneak": false,
-    "vim.easymotion": true,
     "vim.whichwrap": "h, l",
     "vim.enableNeovim": true,
 
@@ -384,5 +383,7 @@
     "plantuml.server": "https://www.plantuml.com/plantuml",
     "cssModules.camelCase": true,
     "python.languageServer": "Microsoft",
-    "python.pythonPath": "/usr/bin/python"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "vim.easymotionDimBackground": false
 }
